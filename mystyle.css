@@ -16,7 +16,7 @@ p{
 
 a{
 text-decoration:none;
-color: black;
+color: white;
 }
 
 img{
@@ -73,6 +73,7 @@ header{
     height: 400px;
 }
 .header-flex{
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -86,7 +87,7 @@ header{
 
 /*main*/
 .blog-item{
-    border-bottom:20px solid gray;
+    border: bottom 1px solid gray;
     margin-top: 20px;
 }
 
@@ -94,14 +95,47 @@ header{
     display: flex;
 }
 .course-item{
-    border-bottom:20px solid gray;
+    border-bottom:1px solid gray;
     margin-top: 20px;
 }
-
-main{
-    width: 50%;
+.blog-container{
+    width: 65%;
+}
+.courses-container{
+    width: 35%;
 }
 
-section{
-    width: 50%;
+.about-us{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-wrap: balance;
+}
+
+.about-desc{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.lower-flex{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.menu-2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

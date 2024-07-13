@@ -52,7 +52,7 @@ h2,h3{
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: rgb(145, 82, 0);
+    background-color: rgb(252, 202, 137);
     color: white;
     text-transform: uppercase;
     font-size: 12px;
@@ -65,13 +65,31 @@ h2,h3{
 }
 
 /*header*/
-header{
+.header{
     background-image: url(./img/banner.jpg);
     background-size: cover;
     text-align:center;
     color: white;
-    height: 400px;
+    height: 170px;
+    
 }
+
+.header2{
+    background-image: url(./img/Banner2.jpg);
+    background-size: cover;
+    text-align:center;
+    color: white;
+    height: 150px;
+}
+
+.header3{
+    background-image: url(./img/Enroll.jpg);
+    background-size: cover;
+    text-align:center;
+    color: black;
+    height: 150px;
+}
+
 .header-flex{
     height: 100px;
     display: flex;
@@ -85,6 +103,10 @@ header{
     margin-right: 30px;
 }
 
+.menu3 a{
+    color: rgba(0, 0, 0, 0.639);
+    margin-right: 30px;
+}
 /*main*/
 .blog-item{
     border: bottom 1px solid gray;
@@ -103,7 +125,15 @@ header{
 }
 .courses-container{
     width: 35%;
+    margin-left: 20px;
 }
+
+.courses-container h3 {
+    text-decoration: underline;
+}
+
+
+/****About Us****/
 
 .about-us{
     text-align: center;
@@ -112,17 +142,21 @@ header{
 }
 .main-about{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: center;
     margin-bottom: 30px;
     padding: 20px;
     text-wrap: balance;
 }
+.about-img{
+    width: 200%;
+}
 
 .about-desc{
+    letter-spacing: 3px;
     font-size: 15px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .lower-flex{
@@ -133,9 +167,169 @@ header{
     align-items: center;
     background-color: black;
     color: white;
+
 }
 .menu-2{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.menu-2 a{
+    margin-right: 30px;
+}
+
+/****Contact****/
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -40px;
+    background-color: rgba(133, 104, 61, 0.527);
+    color: white;
+}
+
+.input-container{
+margin-bottom: 10px;
+}
+
+.input-container input,
+.input-container textarea{
+    width: 70%;
+    padding: 3px;
+}
+
+.input-container label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+/***Courses***/
+
+.courses-main{
+    font-family:arial;
+    padding: 20px;
+    
+}
+
+.courses-main h1{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-left: 500px;
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 12px;
+    text-decoration:underline;
+    
+}
+.courses-cont{
+    padding: 20px;
+}
+
+.course-beg{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-image: url(./img/Beg2.jpg);
+    background-size: cover;
+    color: white;
+    height: 200px;
+}
+
+.course-int{
+    display: flex;
+    flex-direction: row-reverse;    
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-image: url(./img/Int2.jpg);
+    background-size: cover;
+    color: white;
+    height: 210px;
+}
+
+.course-adv{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    background-image: url(./img/Adv2.jpg);
+    background-size: cover;    
+    color: white;
+    height: 210px;
+}
+.c1{
+    padding: 20px
+}
+
+.c2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 90px;
+}
+
+.c3{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.c4{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.btn-more2{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 12px;
+    text-decoration: underline;
+}
+
+/***Enroll***/
+.enroll-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    max-width: 60%;
+    margin-left: 250px;
+}
+
+.img-container1{
+    display: flex;
+    flex-direction: column;
+}
+
+.en-input{
+    letter-spacing: 5px;
+    margin-top: -350px;
+    margin-left: 500px;
+}
+
+.en-incont{
+    padding: 10px;
+}
+
+.enbtn{
+    margin-left: 50px;
 }
